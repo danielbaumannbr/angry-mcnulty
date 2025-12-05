@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
-meunome="Daniel";
+  meunome = "Daniel";
+
+  mudaNome(event:any) {
+    this.meunome = "Baumann";
+    console.log(event);
+  }
 }
